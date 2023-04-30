@@ -79,6 +79,61 @@ body {
     animation: VLetter2 5s normal infinite ease-in-out;
 }
 
+.CLetter {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    font-size: 4em;
+    animation: CLetter 5s normal infinite ease-in-out;
+}
+
+.ALetter2 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 4em;
+    animation: ALetter2 5s normal infinite ease-in-out;
+}
+
+.PLetter {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    font-size: 4em;
+    animation: PLetter 5s normal infinite ease-in-out;
+}
+
+.ALetter3 {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    font-size: 4em;
+    animation: ALetter3 5s normal infinite ease-in-out;
+}
+
+.LLetter {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    font-size: 4em;
+    animation: LLetter 5s normal infinite ease-in-out;
+}
+
+.ALetter4 {
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    font-size: 4em;
+    animation: ALetter4 5s normal infinite ease-in-out;
+}
+
+.CLetter2 {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    font-size: 4em;
+    animation: CLetter2 5s normal infinite ease-in-out;
+}
 
 /* Animation */
 
@@ -137,4 +192,45 @@ body {
     100%{position: absolute; top: 35%; left: 47%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
 }
 
+@keyframes CLetter {
+    0%{position: absolute; top: 85%; left: 35%; font-size: 4em; transform: rotateX(360deg) rotateY(360deg); rotate: 360deg;}
+    100%{position: absolute; top: 45%; left: 36%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
 
+@keyframes ALetter2 {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateX(360deg) rotateY(360deg); rotate: 360deg;}
+    50%{position: absolute; top: 55%; left: 44%; font-size: 4em; transform: rotateX(-120deg) rotateY(120deg);}
+    100%{position: absolute; top: 45%; left: 40%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
+
+@keyframes PLetter {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateX(30deg) rotateY(30deg); rotate: 360deg;}
+    50%{position: absolute; top: 50%; left: 28%; font-size: 4em; transform: rotateX(40deg) rotateY(-360deg);}
+    100%{position: absolute; top: 45%; left: 44%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
+
+@keyframes ALetter3 {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateX(360deg) rotateY(360deg); rotate: 360deg;}
+    50%{position: absolute; top: 60%; left: 52%; font-size: 4em; transform: rotateX(-120deg) rotateY(120deg);}
+    100%{position: absolute; top: 45%; left: 48%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
+
+@keyframes LLetter {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateX(90deg) rotateY(90deg); rotate: 90deg;}
+    30%{position: absolute; top: 60%; left: 20%; font-size: 4em; transform: rotateX(-120deg) rotateY(220deg); rotate: 240deg}
+    70%{position: absolute; top: 30%; left: 80%; font-size: 4em; transform: rotateX(-120deg) rotateY(220deg);}
+    100%{position: absolute; top: 45%; left: 52%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
+
+@keyframes ALetter4 {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateX(360deg) rotateZ(360deg); rotate: 100deg;}
+    50%{position: absolute; top: 70%; left: 10%; font-size: 4em; transform: rotateX(175deg) rotateZ(120deg);}
+    100%{position: absolute; top: 45%; left: 56%; font-size: 4em; transform: rotateX(0deg) rotateZ(0deg);}
+}
+
+@keyframes CLetter2 {
+    0%{position: absolute; top: 85%; left: 32%; font-size: 4em; transform: rotateY(360deg) rotateZ(360deg); rotate: 100deg;}
+    40%{position: absolute; top: 70%; left: 10%; font-size: 4em; transform: rotateY(175deg) rotateZ(120deg);}
+    80%{position: absolute; top: 30%; left: 28%; font-size: 4em; transform: rotateY(-120deg) rotateZ(-240deg);}
+    100%{position: absolute; top: 45%; left: 60%; font-size: 4em; transform: rotateY(0deg) rotateZ(0deg);}
+}
