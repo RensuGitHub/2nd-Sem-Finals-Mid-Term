@@ -12,7 +12,7 @@ body {
     top: 15%;
     left: 40%;
     font-size: 4em;
-    animation: GLetter 5s normal infinite ease-in-out;
+    animation: GLetter 5s normal forwards ease-in-out;
 }
 
 .ALetter {
@@ -20,7 +20,7 @@ body {
     top: 15%;
     left: 44%;
     font-size: 4em;
-    animation: ALetter 5s normal infinite ease-in-out;
+    animation: ALetter 5s normal forwards ease-in-out;
 }
 
 .RLetter {
@@ -28,7 +28,7 @@ body {
     top: 15%;
     left: 48%;
     font-size: 4em;
-    animation: RLetter 5s normal infinite ease-in-out;
+    animation: RLetter 5s normal forwards ease-in-out;
 }
 
 .VLetter {
@@ -36,7 +36,7 @@ body {
     top: 15%;
     left: 52%;
     font-size: 4em;
-    animation: VLetter 5s normal infinite ease-in-out;
+    animation: VLetter 5s normal forwards ease-in-out;
 }
 
 .YLetter {
@@ -44,7 +44,7 @@ body {
     top: 15%;
     left: 56%;
     font-size: 4em;
-    animation: YLetter 5s normal infinite ease-in-out;
+    animation: YLetter 5s normal forwards ease-in-out;
 }
 
 .RLetter2 {
@@ -52,7 +52,7 @@ body {
     top: 25%;
     left: 44%;
     font-size: 4em;
-    animation: RLetter2 5s normal infinite ease-in-out;
+    animation: RLetter2 5s normal forwards ease-in-out;
 }
 
 .ELetter {
@@ -60,7 +60,7 @@ body {
     top: 25%;
     left: 48%;
     font-size: 4em;
-    animation: ELetter 5s normal infinite ease-in-out;
+    animation: ELetter 5s normal forwards ease-in-out;
 }
 
 .NLetter {
@@ -68,7 +68,7 @@ body {
     top: 25%;
     left: 52%;
     font-size: 4em;
-    animation: NLetter 5s normal infinite ease-in-out;
+    animation: NLetter 5s normal forwards ease-in-out;
 }
 
 .VLetter2 {
@@ -76,7 +76,7 @@ body {
     top: 25%;
     left: 52%;
     font-size: 4em;
-    animation: VLetter2 5s normal infinite ease-in-out;
+    animation: VLetter2 5s normal forwards ease-in-out;
 }
 
 .CLetter {
@@ -84,7 +84,7 @@ body {
     top: 45%;
     left: 36%;
     font-size: 4em;
-    animation: CLetter 5s normal infinite ease-in-out;
+    animation: CLetter 5s normal forwards ease-in-out;
 }
 
 .ALetter2 {
@@ -92,7 +92,7 @@ body {
     top: 45%;
     left: 40%;
     font-size: 4em;
-    animation: ALetter2 5s normal infinite ease-in-out;
+    animation: ALetter2 5s normal forwards ease-in-out;
 }
 
 .PLetter {
@@ -100,7 +100,7 @@ body {
     top: 45%;
     left: 44%;
     font-size: 4em;
-    animation: PLetter 5s normal infinite ease-in-out;
+    animation: PLetter 5s normal forwards ease-in-out;
 }
 
 .ALetter3 {
@@ -108,7 +108,7 @@ body {
     top: 45%;
     left: 48%;
     font-size: 4em;
-    animation: ALetter3 5s normal infinite ease-in-out;
+    animation: ALetter3 5s normal forwards ease-in-out;
 }
 
 .LLetter {
@@ -116,7 +116,7 @@ body {
     top: 45%;
     left: 52%;
     font-size: 4em;
-    animation: LLetter 5s normal infinite ease-in-out;
+    animation: LLetter 5s normal forwards ease-in-out;
 }
 
 .ALetter4 {
@@ -124,7 +124,7 @@ body {
     top: 45%;
     left: 56%;
     font-size: 4em;
-    animation: ALetter4 5s normal infinite ease-in-out;
+    animation: ALetter4 5s normal forwards ease-in-out;
 }
 
 .CLetter2 {
@@ -132,7 +132,7 @@ body {
     top: 45%;
     left: 60%;
     font-size: 4em;
-    animation: CLetter2 5s normal infinite ease-in-out;
+    animation: CLetter2 5s normal forwards ease-in-out;
 }
 
 /* Animation */
