@@ -71,6 +71,13 @@ body {
     animation: NLetter 5s normal infinite ease-in-out;
 }
 
+.VLetter2 {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    font-size: 4em;
+    animation: VLetter2 5s normal infinite ease-in-out;
+}
 
 
 /* Animation */
@@ -115,3 +122,19 @@ body {
     60%{position: absolute; top: 35%; left: 60%; font-size: 4em; transform: rotateX(170deg) rotateZ(50deg);}
     100%{position: absolute; top: 25%; left: 48%; font-size: 4em; transform: rotateX(0deg) rotateZ(0deg);}
 }
+
+@keyframes NLetter {
+    0%{position: absolute; top: 85%; left: 49%; font-size: 4em; transform: rotateX(240deg) rotateZ(120deg); rotate: 180deg;}
+    30%{position: absolute; top: 65%; left: 49%; font-size: 4em; transform: rotateX(200deg) rotateZ(120deg);}
+    60%{position: absolute; top: 35%; left: 56%; font-size: 4em; transform: rotateX(160deg) rotateZ(50deg);}
+    90%{position: absolute; top: 35%; left: 48%; font-size: 4em; transform: rotateX(120deg) rotateZ(50deg);}
+    100%{position: absolute; top: 25%; left: 52%; font-size: 4em; transform: rotateX(0deg) rotateZ(0deg);}
+}
+
+@keyframes VLetter2 {
+    0%{position: absolute; top: 85%; left: 65%; font-size: 4em; transform: rotateX(180deg) rotateY(180deg);}
+    50%{position: absolute; top: 65%; left: 45%; font-size: 4em; transform: rotateX(240deg) rotateY(20deg);}
+    100%{position: absolute; top: 35%; left: 47%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+}
+
+
