@@ -4,7 +4,7 @@ body {
     color: #fff;
 }
 
-/* */
+/* Letters */
 
 
 .GLetter {
@@ -189,7 +189,7 @@ body {
 @keyframes VLetter2 {
     0%{position: absolute; top: 85%; left: 65%; font-size: 4em; transform: rotateX(180deg) rotateY(180deg);}
     50%{position: absolute; top: 65%; left: 45%; font-size: 4em; transform: rotateX(240deg) rotateY(20deg);}
-    100%{position: absolute; top: 35%; left: 47%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
+    100%{position: absolute; top: 35%; left: 48%; font-size: 4em; transform: rotateX(0deg) rotateY(0deg);}
 }
 
 @keyframes CLetter {
